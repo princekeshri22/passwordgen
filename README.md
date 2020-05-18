@@ -6,6 +6,7 @@ This program is written in Python3 that's why you need to have Python3 installed
 Install git to clone this repo
 
 Guide:-
+
 cd passwordgen
 
 pip install -r requirement.txt
@@ -17,4 +18,4 @@ To see the password stored:-
 python seepass.py
 
 
-Thankyou Hope You will like it... I am newbie in Python 😅
+Thankyou Hope You will like it...This is my first Python Script 😅
