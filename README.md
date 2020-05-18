@@ -1,4 +1,4 @@
-# passwordgen
+#passwordgen
 This is a random password generator to generate random password for your accounts and store it also for your ease.
 
 This program is written in Python3 that's why you need to have Python3 installed.
