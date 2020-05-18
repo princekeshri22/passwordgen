@@ -52,7 +52,7 @@ def pwdgen():
 	
 		
 	else:
-		print("Oops! Wrong input")
+		print("Oops! O.K.")
 pwdgen()
 print()		
 print("Do you want to generate more passwords(y/n): ")
