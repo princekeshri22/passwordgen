@@ -8,7 +8,7 @@ Install git to clone this repo
 Guide:-
 cd passwordgen
 
-pip install -r .\requirement.txt
+pip install -r requirement.txt
 
 python pwdgen.py
 
