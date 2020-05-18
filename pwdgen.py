@@ -7,6 +7,7 @@ def pwdgen():
 	pwd=""
 	print("For what account (ex:- Facebook):", end="")
 	ac=input()
+        print()
 	print("Length of your password (min.8 recomended) :  ",end=""	)
 	
 	len=int(input())
@@ -47,7 +48,7 @@ def pwdgen():
 			with open("passwords.txt","a")as d:
 				d.write(str)
 				print()
-				print("Your password has been saved to password.txt")
+				print("Your password has been saved to passwords.txt")
 	
 		
 	else:
