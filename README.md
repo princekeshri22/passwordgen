@@ -3,7 +3,14 @@ This is a random password generator to generate random password for your account
 
 This program is written in Python3 that's why you need to have Python3 installed.
 
-To run it:- python pwdgen.py
+Install git to clone this repo
+
+Guide:-
+cd passwordgen
+
+pip install -r .\requirement.txt
+
+python pwdgen.py
 
 To see the password stored:-
 
