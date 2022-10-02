@@ -82,7 +82,7 @@ def pwdgen():
 def reuse():
   print("Generate more passwords(y/n): ",end="")
 
-  mr=input()
+  mr=input().lower()
 
   if(mr=="n"):
     print()
