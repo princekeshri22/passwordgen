@@ -80,19 +80,17 @@ def pwdgen():
     print("Oops! O.K.")
     
 def reuse():
-  print("Generate more passwords(y/n): ",end="")
-
+  print("If you want to generate more password press \'Y\' : ",end="")
   mr=input().lower()
 
-  if(mr=="n"):
-    print()
-    print(Fore.WHITE,"Thanks for using. Hope see you next time.")
-    
-    print(Style.RESET_ALL)
-  
-  else:
+  if(mr=="y"):
     pwdgen()
     reuse()
+  
+  else:
+    print()
+    print(Fore.WHITE,"Thanks for using. Hope see you next time.")
+    print(Style.RESET_ALL)
     
 pwdgen()
 print()
